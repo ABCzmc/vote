@@ -40,7 +40,13 @@ function addTestUser(num) {
 dealFn.readFileData('database.json').then((data) => {
     database = data;
     database.data.total = database.data.objects.length;
+<<<<<<< HEAD
     // addTestUser(100);
+=======
+
+    // addTestUser(100)
+
+>>>>>>> ee23c19c90a7427a9085ada7dfc4ae0dbd83414b
 }, (msg) => {
     console.log(msg);
 })
